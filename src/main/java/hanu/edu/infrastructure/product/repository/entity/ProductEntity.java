@@ -1,4 +1,4 @@
-package hanu.edu.infrustructure.product.repository.entity;
+package hanu.edu.infrastructure.product.repository.entity;
 
 import hanu.edu.domain.product.model.Product;
 import lombok.AllArgsConstructor;

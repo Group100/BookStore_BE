@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/customer/paypal")
 public class PaypalController {
 
-    private static final String SUCCESS_URL = "/success";
-    private static final String CANCEL_URL = "/cancel";
+    private static final String SUCCESS_URL = "success";
+    private static final String CANCEL_URL = "cancel";
 
     @Autowired
     PaypalService service;

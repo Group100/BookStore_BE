@@ -19,7 +19,7 @@ import org.hibernate.annotations.NaturalId;
 @Getter
 public class UserEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @NaturalId(mutable = true)
     private String username;
